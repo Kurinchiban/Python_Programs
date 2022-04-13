@@ -8,3 +8,14 @@ for i in list:
         Dict[i]=1
 print(Dict)
 print(max(Dict,key=Dict.get))
+
+########
+
+
+item = [{
+"item" : "1",
+"features":[{"key":"value"}]
+}
+]
+print(item[0]["features"][0])
+print(item[0]["features"][0]["key"])
